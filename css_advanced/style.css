@@ -63,3 +63,25 @@
     margin-left: 60px;
 }
 
+.space {
+    flex: 1 1 0; /* **Added: flexible width** */
+    max-width: 160px; /* **Added: limit max width of each card** */
+    text-align: center; 
+}
+
+.color_1 {
+    background-color: rgb(194, 133, 255);
+}
+
+.color_2 {
+    background-color: rgb(7, 22, 41);
+    margin-top: 25px;
+}
+
+.background_image {
+    background-image: url(Object.png);
+}
+
+.button_color {
+    background-color: rgb(194, 133, 255);
+}
