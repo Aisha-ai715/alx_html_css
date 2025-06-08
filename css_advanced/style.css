@@ -1,5 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  padding: 40px 0;  
+}
 .nav_bar{
     float: right;
+    margin-right: 70px;
+}
+
+.edge {
+    margin-left: 70px;
 }
         
 .head_title p {
@@ -8,6 +22,11 @@
     font-size: 100px;
     margin-bottom: 0px;
                 
+}
+
+.highlight {
+    color: rgb(194, 133, 255);
+    font-weight: bold;
 }
 .space_word {
     word-spacing: 23px;
@@ -21,10 +40,23 @@
     margin-top: 20px;
 }
 
+.button_color {
+  background-color: #4CAF50;  
+  color: white;               
+  padding: 12px 30px;         
+  border: none;               
+  border-radius: 40px;        
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
 .all_image h1 {
     text-align: center;
     margin-bottom: 40px;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 
@@ -37,7 +69,10 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    gap: 10px;
 }
+
+
 
 .vid_section {
     display: flex;
@@ -54,6 +89,12 @@
     font-size: 20px;
 }
 
+.personal_accounts img {
+  width: 24px;
+  height: 24px;
+  gap: 16px;
+}
+
 .personal_accounts {
     float: right;
     margin-right: 60px;
@@ -64,8 +105,8 @@
 }
 
 .space {
-    flex: 1 1 0; /* **Added: flexible width** */
-    max-width: 160px; /* **Added: limit max width of each card** */
+    flex: 1 1 0; 
+    max-width: 160px; 
     text-align: center; 
 }
 
@@ -75,11 +116,14 @@
 
 .color_2 {
     background-color: rgb(7, 22, 41);
-    margin-top: 25px;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .background_image {
     background-image: url(Object.png);
+    margin: 0;
 }
 
 .button_color {
