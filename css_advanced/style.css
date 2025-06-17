@@ -12,6 +12,10 @@ section {
     margin-right: 70px;
 }
 
+.nav_bar a {
+    color: white;
+}
+
 .edge {
     margin-left: 70px;
 }
@@ -37,7 +41,8 @@ section {
 #submit_button {
     display: block;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .button_color {
@@ -65,14 +70,42 @@ section {
     justify-content: space-evenly;
     align-items: center;
 }
+.cont div img {
+    margin-bottom: 15px;
+}
+.cont1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cont2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cont div p {
+    color: white;
+}
+
+.cont div h4{
+    color: white;
+    font-weight: bold;
+}
 .quote {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    gap: 10px;
+    gap: 40px;
+    color: white;
+    font-size: 20px;
 }
 
-
+.person {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
 
 .vid_section {
     display: flex;
@@ -122,7 +155,7 @@ section {
 }
 
 .background_image {
-    background-image: url(Object.png);
+    background-image: url(images/Object.png);
     margin: 0;
 }
 
