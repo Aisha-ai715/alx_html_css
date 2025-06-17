@@ -32,12 +32,14 @@ section {
     color: rgb(194, 133, 255);
     font-weight: bold;
 }
+
 .space_word {
     word-spacing: 23px;
     text-align: center;
     margin-top: 0;
               
 }
+
 #submit_button {
     display: block;
     margin: auto;
@@ -64,24 +66,37 @@ section {
     margin-top: 20px;
 }
 
+.color_2 .all_image h1 {
+    color: white;
+}
 
 .cont {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 .cont div img {
     margin-bottom: 15px;
 }
+
 .cont1 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 .cont2 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.cont3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
 }
 
 .cont div p {
@@ -92,6 +107,7 @@ section {
     color: white;
     font-weight: bold;
 }
+
 .quote {
     display: flex;
     justify-content: center;
@@ -143,6 +159,10 @@ section {
     text-align: center; 
 }
 
+.space h4 {
+    margin-top: 10px;
+    font-weight: bold;
+}
 .color_1 {
     background-color: rgb(194, 133, 255);
 }
@@ -161,4 +181,8 @@ section {
 
 .button_color {
     background-color: rgb(194, 133, 255);
+}
+
+.star {
+    margin-top: 15px;
 }
