@@ -7,14 +7,27 @@
 section {
   padding: 40px 0;  
 }
-.nav_bar{
-    float: right;
-    margin-right: 70px;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
 }
 
-.nav_bar a {
-    color: white;
+.nav-bar {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
+
+.nav-bar > li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
 
 .edge {
     margin-left: 70px;
