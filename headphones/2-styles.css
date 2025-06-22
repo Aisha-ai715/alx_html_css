@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.background-image {
+    background-image: url(image/headphones_hero_1.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    width: 120px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12.5rem;
+    margin-top: 0px;
+    padding-top: 1.87rem;
+    padding-left: 2.81rem;
+    padding-right: 2.81rem;
+}
+
+.nav_bar ul li {
+    display: inline-block;
+    list-style: none;
+
+}
+
+.nav_bar ul li a {
+    color: white;
+    text-decoration-line: none;
+    margin-right: 2.5rem;
+    font-size: 1rem;
+
+}
+
+.nav_bar ul li:last-child {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 1.5rem;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.landing_words {
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.landing_words h1 {
+    margin-bottom: 0px;
+    font-size: clamp(1rem, 5vw, 1.5rem);
+    line-height: 1.2;
+}
+
+.landing_words strong {
+    margin-top: 0.312rem;
+    display: block;
+    font-size: clamp(.9rem, 1vw, 1.2rem);
+    line-height: 1.4;
+}
+
+.buttom form button {
+    margin-top: 2.88rem;
+    margin-bottom: 2.88rem;
+    border-radius: 1.56rem;
+    padding: .9rem 1.5rem;
+    background-color: #ff6565;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.first_section p {
+    line-height: 1.6;
+    margin-bottom: .8em;
+    font-size: clamp(.9rem, 1vw, 1.2rem);
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-color: transparent;
+        padding: 0.625rem;
+        margin-bottom: 3rem;
+    }
+
+    .landing_words {
+        padding-top: 13rem;
+    }
+
+    .logo img {
+       width: 150px;
+       min-height: auto;
+    }
+
+    .nav_bar ul {
+        display: none;
+        flex-direction: column;
+        background: white;
+        position: absolute;
+        top: 4.375rem;
+        left: 40%;
+        width: 100%;
+        padding: 0.625rem;
+        z-index: 10;
+        gap: 2.188rem;
+    }
+
+    .nav_bar ul li a {
+        color: white;
+        font-weight: bold;
+        padding: 0.5rem 0;
+        margin-right: 0;
+        font-size: 1rem;
+    }
+
+    label.menu-icon {
+        display: block;
+        position: absolute;
+        left: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 24px;
+        color: white;
+        z-index: 10;
+        cursor: pointer;
+    }
+
+
+    .nav_bar ul {
+        background-color: transparent;
+    }
+
+    #menu-toggle:checked~.nav_bar ul {
+        display: flex;
+    }
+
+    .first_section p:last-child{
+        margin-bottom: 4rem;
+    }
+
+}
+
+@media (any-hover: hover) {
+    a:hover {
+        background: #FF6565;
+        padding: 0.2rem 0.5rem;
+    }
+}
+
+.buttom form button:hover,
+.buttom form button:active {
+    opacity: 0.9;
+}
+
+.what_we_do {
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.work {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.what_we_do .all_image {
+    margin: 6rem auto;
+}
+
+.what_we_do p {
+    line-height: 1.6;
+    font-size: clamp(.9rem, 1vw, 1.2rem);
+}
+
+.work {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.work div img {
+    height: 6rem;
+    margin-bottom: 3rem;
+}
+
+.our_result {
+    background-image: url(image/headphones_hero_2.jpg);
+    text-align: center;
+    padding: 19rem 2rem 5rem 2rem;
+    color: white;
+}
+
+.result {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.num {
+    font-size: 2rem;
+}
+.image_container img {
+    height: 11.87rem;
+}
+.image_container {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+
+.image_container div {
+    position: absolute;
+    top: 35%;
+    left:20%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
